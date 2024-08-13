@@ -66,8 +66,7 @@ document.getElementById("en").onclick = function () {
     document.getElementById("boton_enviar").value = "Send";
     document.getElementById("form_nombre").placeholder = "Name:";
     document.getElementById("form_mensaje").placeholder = "Message:";
-    document.getElementById("foot_text").innerHTML = "This website was created as a final project for Ticmas Academy's Front-end Web Development course.";
-
+    
 }
 
 
@@ -135,9 +134,6 @@ document.getElementById("es").onclick = function () {
     document.getElementById("boton_enviar").value = "Enviar";
     document.getElementById("form_nombre").placeholder = "Nombre:";
     document.getElementById("form_mensaje").placeholder = "Mensaje:";
-    document.getElementById("foot_text").innerHTML = "Este sitio web fue creado como proyecto final para el curso de Desarrollo Web Front-end de Ticmas Academy.";
-
-
 
 }
 
