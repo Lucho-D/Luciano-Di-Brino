@@ -482,6 +482,10 @@ footer p{
     nav ul li a {
         font-size: 15px;
     }
+    
+    .section{
+        width: 500px;
+    }
 }
 
 @media (max-width: 858px) {
@@ -515,9 +519,7 @@ footer p{
     #check:checked~ul {
         right: -10%;
     }
-}
 
-@media (min-width: 858px) {
     section#habilidades {
         min-height: 100vh;
         padding-top: 50px;
@@ -526,9 +528,7 @@ footer p{
     section#habilidades_box_container {
         padding-top: 50px;
     }
-}
 
-@media (min-width: 858px) {
     section#projects {
         min-height: 100vh;
         padding-top: 30px;
@@ -538,6 +538,10 @@ footer p{
 @media (max-width: 733px) {
     #hero section img {
         width: 150px;
+    }
+
+    .section{
+        width: 400px;
     }
 
     .section h1 {
