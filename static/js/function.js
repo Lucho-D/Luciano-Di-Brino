@@ -3,7 +3,7 @@ let projectHeaders = document.getElementsByClassName("project-header");
 
 document.getElementById("en").onclick = function () {
     /*hero*/
-    document.getElementById("hhero").innerHTML = "I am passionate about programming and web development with a focus on Python. Able to work in a team, learn quickly and adapt to new technologies."
+    document.getElementById("hhero").innerHTML = "I am a web developer with a passion for programming, with a focus on Python and a background in web technologies. I stand out for my ability to work in a team, learn quickly and adapt to new tools and technological environments."
     /*navbar y títulos*/
     document.getElementById("nav_inicio").innerHTML = "Home";
     document.getElementById("nav_experiencia").innerHTML = "Experience";
@@ -72,7 +72,7 @@ document.getElementById("en").onclick = function () {
 
 document.getElementById("es").onclick = function () {
     /*hero*/
-    document.getElementById("hhero").innerHTML = "Soy un apasionado por la programación y el desarrollo web con un enfoque en Python. Capaz de trabajar en equipo, aprender rápidamente y adaptarme a nuevas tecnologías.";
+    document.getElementById("hhero").innerHTML = "Soy un desarrollador web apasionado por la programación, con un enfoque en Python y experiencia en tecnologías web. Me destaco por mi capacidad para trabajar en equipo, aprender rápidamente y adaptarme a nuevas herramientas y entornos tecnológicos";
     /*navbar y títulos*/
     document.getElementById("nav_inicio").innerHTML = "Inicio";
     document.getElementById("nav_experiencia").innerHTML = "Experiencia";

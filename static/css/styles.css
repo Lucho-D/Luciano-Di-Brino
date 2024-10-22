@@ -5,6 +5,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    line-height: 1.6;
 }
 
 html {
@@ -13,14 +14,16 @@ html {
 
 h1 {
     font-family: 'Montserrat';
-    font-size: 3rem;
+    font-size: 36px;
+    font-weight: bold;
     color: #ffffff;
 }
 
 
 h2 {
     font-family: 'Montserrat';
-    font-size: 2rem;
+    font-size: 30px;
+    font-weight: 600;
     text-align: center;
     color: #ffffff;
     margin-bottom: 20px;
@@ -140,6 +143,7 @@ li a:hover {
 
 .section p{
     color: #ffffff;
+    font-size: 16px;
 }
 
 /* EXPERIENCIA */
@@ -182,8 +186,9 @@ section#timelines-container {
 
 /* Card title */
 .title {
-    color: #1CB698;
+    color: #ffffff;
     position: relative;
+    font-size: 17px;
 }
 
 /* Timeline dot  */
@@ -288,10 +293,11 @@ section#projects {
 }
 
 .project-detail {
-    width: 400px;
+    /* width: 400px; */
+    width: 500px; 
     margin: 15px;
-    padding-bottom: 2em;
-    border-radius: 15px;
+    padding-bottom: 1em;
+    border-radius: 18px;
     border: 3px solid #1CB698;
     background: #fff;
 }
@@ -307,6 +313,8 @@ section#projects {
 .link {
     color: rgb(0, 90, 150);
     font-style: italic;
+    padding-left: 5px;
+
 }
 
 .link:hover {
@@ -314,6 +322,10 @@ section#projects {
     color: #ffffff;
     border: 4px solid #ffffff;
     transition: .5s;
+}
+
+#exp_laboral {
+    scroll-margin-top: 100px; 
 }
 
 
@@ -545,7 +557,7 @@ footer p{
     }
 
     .section h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .section h2 {
@@ -553,7 +565,7 @@ footer p{
     }
 
     .section p {
-        font-size: 18px;
+        font-size: 14px;
     }
 }
 
