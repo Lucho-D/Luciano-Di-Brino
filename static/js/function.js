@@ -28,6 +28,7 @@ document.getElementById("en").onclick = function () {
     document.getElementById("exp_cpfp").innerHTML = "Digital Electronics Assistant";
     document.getElementById("exp_coffeeshop").innerHTML = "• Developed an E-Commerce website for a coffee shop using Flask as a backend framework using MYSQL, and HTML, CSS and JavaScript for the frontend.<br> • Implemented interaction functionalities, such as shopping carts and product filters, contact form, review and product crud using JavaScript to improve the usability of the site.<br> • Collaborated with a team to define the project requirements, design the architecture and develop the functionalities according to the needs of the project.";
     document.getElementById("exp_lmtattoo").innerHTML = "• Collaborated with the design team to translate creative concepts into an intuitive and engaging user interface.<br> • I used HTML, CSS, and JavaScript to create a responsive design that highlighted the work of tattoo artists and offered a seamless user experience.<br> • Implemented animations and visual effects to improve the aesthetics and interactivity of the site.";
+    document.getElementById("exp_classcloud").innerHTML = "• Collaborated with a team in the creation of a platform designed to optimize the management of users and content in the educational environment using Angular, HTML, CSS and TypeScript.<br> • Implemented a clean and intuitive interface, which improved the user experience.";
     document.getElementById("sin_exp").innerHTML = "(no previous work experience)";
     /*habilidades*/
     document.getElementById("hab_desarrollo").innerHTML = "DEVELOPMENT";
@@ -39,6 +40,8 @@ document.getElementById("en").onclick = function () {
     document.getElementById("respeto").innerHTML = "respect";
 
     /*proyectos*/
+
+    document.getElementById("descripcion").innerHTML = "> Description"; // Para inglés
 
     for (let i = 0; i < links.length; i++) {
         links[i].innerHTML = "> Link to project";
@@ -97,6 +100,7 @@ document.getElementById("es").onclick = function () {
     document.getElementById("exp_cpfp").innerHTML = "Auxiliar en electrónica digital";
     document.getElementById("exp_coffeeshop").innerHTML = "• Desarrollé una página web E-Commerce de una cafetería utilizando Flask como framework backend utilizando MYSQL, y HTML, CSS y JavaScript para el frontend.<br> • Implementé funcionalidades de interacción, como carritos de compras y filtros de productos, formulario de contacto, crud de comentarios y productos utilizando JavaScript para mejorar la usabilidad del sitio.<br> • Colaboré con un equipo para definir los requisitos del proyecto, diseñar la arquitectura y desarrollar las funcionalidades según las necesidades del proyecto.<br>  ";
     document.getElementById("exp_lmtattoo").innerHTML = "  • Colaboré con el equipo de diseño para traducir conceptos creativos en una interfaz de usuario intuitiva y atractiva.<br> • Utilicé HTML, CSS y JavaScript para crear un diseño responsivo que resaltara la obra de los artistas de tatuajes y ofreciera una experiencia de usuario fluida.<br> • Implementé animaciones y efectos visuales para mejorar la estética y la interactividad del sitio.<br>  ";
+    document.getElementById("exp_classcloud").innerHTML = "• Colaboré con un equipo en la creación de una plataforma diseñada para optimizar la administración de usuarios y contenidos en el entorno educativo utilizando Angular, HTML, CSS y TypeScript.<br> • Implementé una interfaz limpia e intuitiva, lo que mejoró la experiencia del usuario.<br>";
     document.getElementById("sin_exp").innerHTML = "(sin experiencia laboral previa en compañias)";
     /*habilidades*/
     document.getElementById("hab_desarrollo").innerHTML = "DESARROLLO";
@@ -112,6 +116,8 @@ document.getElementById("es").onclick = function () {
 
     /*proyectos*/
    
+    document.getElementById("descripcion").innerHTML = "> Descripción"; // Para español
+
     for (let i = 0; i < links.length; i++) {
         links[i].innerHTML = "> Enlace al proyecto";
     }
@@ -157,3 +163,4 @@ document.getElementById("nav_contacto").onclick = function () {
 document.getElementById("nav_downloads").onclick = function () {
     check.checked = false;
 }
+
